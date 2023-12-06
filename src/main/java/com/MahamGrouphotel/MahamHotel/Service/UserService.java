@@ -1,4 +1,4 @@
 package com.MahamGrouphotel.MahamHotel.Service;
 
-public class BookServiceImpl {
+public class UserService {
 }
