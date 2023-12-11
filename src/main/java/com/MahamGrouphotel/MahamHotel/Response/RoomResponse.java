@@ -15,8 +15,7 @@ import java.util.List;
 @Builder
 public class RoomResponse {
     private RoomType roomType;
-    private BigDecimal roomPrice;
-    private boolean isBooked;
+    private Long roomPrice;
     private String photo;
-    private List<BookingResponse> bookings;
+    private int rnumber;
 }

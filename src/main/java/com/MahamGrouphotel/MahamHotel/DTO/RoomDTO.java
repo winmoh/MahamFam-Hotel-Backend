@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.sql.Blob;
 
@@ -14,8 +15,9 @@ import java.sql.Blob;
 @Builder
 public class RoomDTO {
     private RoomType roomType;
+    private int rnumber;
     private Long roomPrice;
-    private boolean isBooked ;
 
-    private String  photo;
+    private MultipartFile photo;
+
 }

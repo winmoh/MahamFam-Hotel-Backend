@@ -24,7 +24,7 @@ public class Role {
     @JoinTable(name="users_roles",
     joinColumns = @JoinColumn(name="role",referencedColumnName = "role_id"),
     inverseJoinColumns =@JoinColumn(name="user",referencedColumnName = "user_id"))
-    private Collection<guest> users ;
+    private Collection<User> users ;
 
 
 
